@@ -7,12 +7,17 @@ class CurrencyRunner : public Plasma::AbstractRunner
     Q_OBJECT
 
 public:
-    CurrencyRunner(QObject *parent, const QVariantList &args);
+    CurrencyRunner(QObject *parent, const KPluginMetaData &data, const QVariantList &args);
     ~CurrencyRunner() override;
 
 public:
     void match(Plasma::RunnerContext &context) override;
-    void run(const Plasma::RunnerContext &context, const Plasma::QueryMatch &match) override;
+
+protected:
+    void init() override;
+
+private:
+    Plasma::QueryMatch buildMatch(const QString &data);
+    QRegularExpression re;
+    QMap<QString, QVariant> currencies;
 };
-
-

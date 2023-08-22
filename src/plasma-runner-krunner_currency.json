@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "harogaston@gmail.com",
+                "Name": "Gastón Haro"
+            }
+        ],
+        "Category": "Finance",
+        "Description": "Currency converter",
+        "EnabledByDefault": true,
+        "Icon": "view-currency-list",
+        "Id": "krunner_currency",
+        "License": "GPLv3",
+        "Name": "Currency",
+        "ServiceTypes": [
+            "Plasma/Runner"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/harogaston/krunnercurrency"
+    }
+}
