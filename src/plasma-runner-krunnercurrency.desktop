@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Currencies
+Comment=Get real-time currency conversions
+Type=Service
+Icon=view-currency-list
+
+X-KDE-ServiceTypes=Plasma/Runner
+
+X-KDE-PluginInfo-Author=Gastón Haro
+X-KDE-PluginInfo-Email=harogaston@gmail.com
+X-KDE-PluginInfo-Name=krunnercurrency
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/harogaston/krunnercurrency
+X-KDE-PluginInfo-Category=Finance
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-EnabledByDefault=true
