@@ -4,7 +4,11 @@ A currency converter plugin for KRunner.
 It works using [Free Currency Rates API](https://github.com/fawazahmed0/currency-api)
 
 ## Usage
-`// TODO`
+There are two recognized formats:
+1. `exchange <amount> <currency> to <currency>`
+2. `<amount> <currency> to <currency>`
+
+where `<currency>` is a valid [currency code](https://www.iban.com/currency-codes).
 
 ## Dependencies
 
