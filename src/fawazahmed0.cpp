@@ -24,7 +24,6 @@ void CurrencyAPI::parseResult(QNetworkReply *reply) {
             QJsonObject jsonObj = jsonDoc.object();
             
             double rate = jsonObj[m_curr_2].toDouble();
-            qDebug() << "RESPONSE RATE IS: " << rate;
                             
             QString data = QStringLiteral("%1 %2").arg(m_amount * rate).arg(m_curr_2_desc);
 
