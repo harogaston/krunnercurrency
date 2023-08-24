@@ -2,9 +2,16 @@ add_definitions(-DTRANSLATION_DOMAIN=\"plasma_runner_org.kde.krunner_currency\")
 
 add_library(krunner_currency MODULE)
 
-target_sources(krunner_currency PRIVATE
-    krunnercurrency.h
-    krunnercurrency.cpp
+target_sources(krunner_currency 
+    PRIVATE
+        krunnercurrency.cpp
+        currencyrepository.cpp
+        fawazahmed0.cpp
+)
+
+set_target_properties(
+    krunner_currency
+    PROPERTIES AUTOMOC ON
 )
 
 find_package(Qt5Network REQUIRED)

@@ -13,11 +13,6 @@ public:
 public:
     void match(Plasma::RunnerContext &context) override;
 
-protected:
-    void init() override;
-
 private:
-    Plasma::QueryMatch buildMatch(const QString &data);
     QRegularExpression re;
-    QMap<QString, QVariant> currencies;
 };

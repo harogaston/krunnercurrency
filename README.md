@@ -40,3 +40,4 @@ sudo zypper install cmake extra-cmake-modules libQt5Core5 libqt5-qtlocation-deve
 - [santiacq/krunnercrypto](https://github.com/santiacq/krunnercrypto) this project was really useful as a reference.
 - [alex1701c/EmojiRunner](https://github.com/alex1701c/EmojiRunner) this project was really useful as a reference.
 - [jacksonlopes/krunnerStocksMarket](https://github.com/jacksonlopes/krunnerStocksMarket) this project was really useful as a reference.
+- [naraesk/krunner-translator](https://github.com/naraesk/krunner-translator) this project was really useful as a reference.
